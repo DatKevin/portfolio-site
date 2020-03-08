@@ -1,9 +1,10 @@
 import React from "react"
+import ResumeHeader from "../../components/Headers/ResumeHeader"
 
 const ResumeContainer = () => {
 	return(
 		<div>
-			<a href = "../KevinDatNguyen.pdf"> Resume uwu </a>
+			<ResumeHeader />
 		</div>
 	)
 }

@@ -28,3 +28,9 @@ div {
 h1 {
 	background-color: white;	
 }
+
+.navbar {
+	display:"flex";
+	flexDirection:"row";
+	background-color: white;
+}

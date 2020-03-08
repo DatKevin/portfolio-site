@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "react-router-dom"
 import { Nav, Navbar, NavItem } from "react-bootstrap"
 
-const Header = () => {
+const MainHeader = () => {
 	return(
         <div>
             <h1>Navigation Bar</h1>
@@ -21,4 +21,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default MainHeader

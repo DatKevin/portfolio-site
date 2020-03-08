@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import ProjectsHeader from "../components/ProjectsHeader"
+import ProjectsHeader from "../../components/Headers/ProjectsHeader"
 
 class ProjectsContainer extends Component {
 	render(){
