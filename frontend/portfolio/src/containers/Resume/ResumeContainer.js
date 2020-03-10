@@ -3,7 +3,7 @@ import ResumeHeader from "../../components/Headers/ResumeHeader"
 
 const ResumeContainer = () => {
 	return(
-		<div>
+		<div className = "container">
 			<ResumeHeader />
 		</div>
 	)

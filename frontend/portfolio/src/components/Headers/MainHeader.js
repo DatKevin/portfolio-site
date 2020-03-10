@@ -4,7 +4,7 @@ import { Nav, Navbar, NavItem } from "react-bootstrap"
 
 const MainHeader = () => {
 	return(
-        <div>
+        <div className = "header">
             <h1>Navigation Bar</h1>
             <Nav>
                 <Nav.Item as = "li">
