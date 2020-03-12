@@ -1,15 +1,16 @@
 import React, { Component } from "react"
 import ProjectsHeader from "../../components/Headers/ProjectsHeader"
+import PokemonAPI from "../../components/Projects/PokemonAPI/PokemonAPI"
 
-class PokemonAPI extends Component {
+class PokemonAPIContainer extends Component {
 	render(){
 		return(
 			<div className = "container">
 				<ProjectsHeader />
-				This is the Home PokemonAPI
+				<PokemonAPI />
 			</div>
 		)
 	}
 }
 
-export default PokemonAPI
+export default PokemonAPIContainer
