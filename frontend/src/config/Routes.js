@@ -8,8 +8,8 @@ import ASDGContainer from "../containers/Projects/ASDGContainer"
 import PokemonAPIContainer from "../containers/Projects/PokemonAPIContainer"
 import DataDiaryContainer from "../containers/Projects/DataDiaryContainer"
 import AppleContainer from "../containers/Resume/AppleContainer"
-import SVBContainer from "../containers/Resume/SVBContainer"
-import GAContainer from "../containers/Resume/GAContainer"
+import SiliconValleyBankContainer from "../containers/Resume/SiliconValleyBankContainer"
+import GeneralAssemblyContainer from "../containers/Resume/GeneralAssemblyContainer"
 
 
 export default (
@@ -20,8 +20,8 @@ export default (
 		<Route exact path = "/projects/doggame" component = { ASDGContainer } />		
 		<Route exact path = "/projects/pokemonapi" component = { PokemonAPIContainer } />		
 		<Route exact path = "/projects/datadiary" component = { DataDiaryContainer } />
-		<Route exact path = "/resume/ga" component = { GAContainer } />
-		<Route exact path = "/resume/svb" component = { SVBContainer } />
+		<Route exact path = "/resume/ga" component = { GeneralAssemblyContainer } />
+		<Route exact path = "/resume/svb" component = { SiliconValleyBankContainer } />
 		<Route exact path = "/resume/apple" component = { AppleContainer } />
 	</Switch>
 )

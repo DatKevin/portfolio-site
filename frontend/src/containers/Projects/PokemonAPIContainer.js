@@ -1,15 +1,15 @@
 import React, { Component } from "react"
 import ProjectsHeader from "../../components/Headers/ProjectsHeader"
 
-class DataDiary extends Component {
+class PokemonAPI extends Component {
 	render(){
 		return(
-			<div>
+			<div className = "container">
 				<ProjectsHeader />
-				This is the Home DataDiary
+				This is the Home PokemonAPI
 			</div>
 		)
 	}
 }
 
-export default DataDiary
+export default PokemonAPI

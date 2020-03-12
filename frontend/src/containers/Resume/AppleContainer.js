@@ -1,12 +1,13 @@
 import React, { Component } from "react"
 import ResumeHeader from "../../components/Headers/ResumeHeader"
+import Apple from "../../components/Resume/Apple/Apple"
 
 class AppleContainer extends Component {
 	render(){
 		return(
-			<div>
+			<div className = "container">
 				<ResumeHeader />
-				This is the Home AppleContainer
+				<Apple />
 			</div>
 		)
 	}
